@@ -1,8 +1,35 @@
-.header-list-container {
-    width: 70%;
-    position: relative;
-    right: 0;
-    left : 30%;
+.header-container {
     display: flex;
-    justify-content: space-between;
+    padding: 1.5% 0 1.5% 0;
+}
+
+.logo-container {
+    color: white;
+    font-size: 1.4rem;
+    width: 40%;
+}
+.logo {
+    margin-left: 15%;
+}
+
+
+
+.header-list-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.header-list-item {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.4rem;
+    align-items: center;
+}
+li i {
+    font-size: 1rem;
+}
+li a, li i {
+    margin: 1%;
+    color: white;
 }
