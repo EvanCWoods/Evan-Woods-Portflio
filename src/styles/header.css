@@ -4,8 +4,9 @@
 }
 
 .logo-container {
-    color: white;
+    color: #c362e1;
     font-size: 1.4rem;
+    font-weight: 900;
     width: 40%;
 }
 .logo {
