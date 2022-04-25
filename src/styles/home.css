@@ -2,6 +2,7 @@
     color: white;
     margin-left: 10%;
     margin-top: 20%;
+    z-index: 10;
 }
 .text {
     font-weight: 100;
@@ -9,7 +10,7 @@
     line-height: 4rem;
 }
 .colorful {
-    color: #c362e1
+    color: rgb(55, 158, 110);
 }
 
 .brief-intro-container {
