@@ -1,0 +1,43 @@
+.projects-container {
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projects-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.project-card {
+    width: 27%;
+    border: 1px solid rgb(55, 158, 110);
+    padding: 1.5%;
+    margin: 1.5%;
+}
+
+.project-title {
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.project-description {
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+}
+.project-button {
+    padding: 3%;
+    background:rgb(55, 158, 110);
+    border: none;
+    border-radius: 5px;
+}

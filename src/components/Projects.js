@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/projects.css";
 
 function Projects() {
     return (
@@ -17,8 +18,10 @@ function Projects() {
                 <div className="project-description-container">
                     <p className="project-description">This is a super cool project that uses new technologies</p>
                 </div>
-                <button className="project-button">See Code</button>
-                <button className="project-button">See Project</button>
+                <div className="buttons-container">
+                    <button className="project-button">See Code</button>
+                    <button className="project-button">See Project</button>
+                </div>
             </div>
         </div>
     )
