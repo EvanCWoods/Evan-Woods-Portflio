@@ -1,17 +1,22 @@
 import React from "react";
-import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import About from "./components/About";
 import "./styles/root.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-    return (
-    <div>
-        <Header />
-        <Home />
+  return (
+    <Router>
+        <Navigation />
+        <Routes>
+            <Route exact path="/" element={ <Home /> }/>
+            <Route exact path="/about" element={ <About /> }/>
+        </Routes>
         <Footer />
-    </div>
-    )
+    </Router>
+  );
 }
 
 export default App;

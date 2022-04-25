@@ -1,0 +1,14 @@
+* {
+    color: white;
+}
+.about-container {
+    width: 80%;
+    margin: 10%;
+}
+.interest-container {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.interest {
+    line-height: 1.5rem;
+}
