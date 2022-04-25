@@ -19,7 +19,7 @@ function Navigation() {
                 </li>
                 <li className="header-list-item">
                     <i class="fa-thin fa-computer"></i>
-                    <a href="#home" className="header-link">Projects</a>
+                    <a href="/projects" className="header-link">Projects</a>
                 </li>
                 <li className="header-list-item">
                     <i class="fa-thin fa-file-arrow-down"></i>
