@@ -1,0 +1,26 @@
+.tech-container {
+    width: 90%;
+    margin: 10% 5% 10% 5%;
+}
+
+.tech-title {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech-item {
+    border: 1px solid #c362e1;
+    padding: 7% 10%;
+    border-radius: 5%;
+    margin: 1.5%;
+    max-width: 200px;
+}
+.tech-item i {
+    font-size: 3.5rem;
+}
