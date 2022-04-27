@@ -4,12 +4,12 @@
 }
 
 .logo-container {
-    color: rgb(55, 158, 110);
     font-size: 1.4rem;
     font-weight: 900;
     width: 40%;
 }
 .logo {
+    color: rgb(55, 158, 110);
     margin-left: 15%;
 }
 
@@ -34,3 +34,26 @@ li a, li i {
     margin: 1%;
     color: white;
 }
+
+li i {
+    margin-right: 5%;
+}
+
+.header-list-item {
+    background-image:
+    linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(55, 158, 110) 90%,
+    rgb(55, 158, 110) 100%
+    );
+    background-repeat:no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}    
+.header-list-item:hover {
+
+    background-size: 100% 100%;
+    background-position-x: left;
+}    

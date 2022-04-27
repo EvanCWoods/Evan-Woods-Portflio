@@ -14,16 +14,17 @@ function Navigation() {
                     <a href="/" className="header-link">Home</a>
                 </li>
                 <li className="header-list-item">
-                    <i class="fa-light fa-user"></i>
+                <i class="fa-solid fa-user"></i>
                     <a href="/about" className="header-link">About</a>
                 </li>
                 <li className="header-list-item">
-                    <i class="fa-thin fa-computer"></i>
+                <i class="fa-solid fa-computer"></i>
+
                     <a href="/projects" className="header-link">Projects</a>
                 </li>
                 <li className="header-list-item">
-                    <i class="fa-thin fa-file-arrow-down"></i>
-                    <a href="#home" className="header-link">Resume</a>
+                <i class="fa-solid fa-file-arrow-down"></i>
+                    <a href="Assets/Evan-Woods-Coding-Resume.pdf" download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
                 </li>
             </ul>
         </div>

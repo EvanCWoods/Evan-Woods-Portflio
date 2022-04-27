@@ -1,0 +1,31 @@
+.project-container {
+    width: 29%;
+    margin: 1%;
+    text-align: center;
+    min-width: 250px;
+    max-width: 400px;
+    border: 1px solid rgb(55, 158, 110);
+    border-radius: 7px;
+}
+.project-image,
+.project-title,
+.project-description {
+    padding: 5%;
+}
+.project-image {
+    width: 90%;
+    height: auto;
+}
+
+.project-button {
+    color: white;
+    background:rgb(55, 158, 110);
+    border: none;
+    border-radius: 15px;
+    padding: 4% 6%;
+    margin: 15% 0 15% 0;
+}
+
+.project-button:hover {
+    cursor: pointer;
+}
