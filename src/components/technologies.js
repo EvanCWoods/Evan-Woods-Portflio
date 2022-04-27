@@ -9,7 +9,7 @@ function Technologies() {
         href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
       ></link>
       <div className="tech-title">
-        <h1>Take a look at my Tech Stack!</h1>
+        <h1>Take a look at my <span className="colorful">Tech Stack!</span></h1>
       </div>
       <div className="tech-items-container">
         <div className="tech-item">
