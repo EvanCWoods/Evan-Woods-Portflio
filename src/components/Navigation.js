@@ -2,6 +2,15 @@ import React from "react";
 import "../styles/header.css"
 
 function Navigation() {
+
+    function activateMenu() {
+        const headerList = document.querySelector(".header-list-container");
+        headerList.classList.add("dropdown-mobile");
+        const button = document.querySelector(".button-container");
+        const container = document.querySelector(".menu-container");
+        button.classList.add("dropdown-menu");
+        container.classList.add("dropdown-menu");
+    }
     return (
         <div className="header-container">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,6 +36,11 @@ function Navigation() {
                     <a href="Assets/Evan-Woods-Coding-Resume.pdf" download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
                 </li>
             </ul>
+            <div className="menu-container">
+                <button className="button-container" onClick={activateMenu}>
+                    <i class="fa-solid fa-bars"></i> 
+                </button>
+            </div>
         </div>
     )
 }

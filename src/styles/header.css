@@ -57,3 +57,47 @@ li i {
     background-size: 100% 100%;
     background-position-x: left;
 }    
+.menu-container {
+    display: none;
+}
+.button-container {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header-list-container {
+        display: none;
+    }
+    .button-container {
+        display: flex;
+        background: none;
+        border: none;
+        font-size: 1.4rem;
+    }
+    .menu-container {
+        display: flex;
+        font-size: 1.3rem;
+        width: 60%;
+        justify-content: flex-end;
+        padding-right: 5%;
+    }
+    .button-container:hover {
+        cursor: pointer;
+    }
+    .dropdown-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 78%;
+        margin-top: 5%;
+    }
+    .header-list-item {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5%;
+    }
+    .dropdown-menu {
+        height: 1.4rem;
+        margin-right: 5%;
+    }
+}
