@@ -1,5 +1,5 @@
 .project-container {
-    width: 30%;
+    width: 29%;
     margin: 1%;
     text-align: center;
     min-width: 250px;
@@ -12,6 +12,10 @@
 .project-description {
     padding: 5%;
 }
+.project-image {
+    width: 90%;
+    height: auto;
+}
 
 .project-button {
     color: white;
@@ -19,7 +23,7 @@
     border: none;
     border-radius: 15px;
     padding: 4% 6%;
-    margin: 20% 0 20% 0;
+    margin: 15% 0 15% 0;
 }
 
 .project-button:hover {
