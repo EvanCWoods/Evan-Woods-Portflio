@@ -13,11 +13,15 @@ function Home() {
             </div>
 
             <div className="brief-intro-container">
-                <h1 className="brief-intro-title">Let Me Introduce Myself</h1>
+                <h1 className="brief-intro-title">Let Me <span className="colorful">Introduce</span> Myself</h1>
                 <div className="brief-intro-content">
-                    <p className="intro-para">I have been coding for over two and a half years, starting by teaching myself python using online resources, gaining a deep understanding of Machine Learning using TensorFlow, and have recently made the switch to Full Stack Development using the MERN stack.</p>
+                    <p className="intro-para">I have been coding for over two and a half years, and have learned a great deal about programming in that time.</p>
                     <br></br>
-                    <p className="intro-para">I am passionate about learning new things and am driven by a need to understand enw things.</p>
+                    <p className="intro-para">I am passionate about learning new things and am driven by a need to understand new things.</p>
+                    <br></br>
+                    <p className="intro-para">I am fluent in <span className="colorful">JavaScript,</span> <span className="colorful"> Python</span> <span className="colorful">and C#</span></p>
+                    <br></br>
+                    <p className="intro-para">I am always trying to improve my skills, create better products and integrate exciting, new technologies into my day to day knowledge base.</p>
                 </div>
             </div>
         </div>
