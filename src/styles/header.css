@@ -63,6 +63,9 @@ li i {
 .button-container {
     display: none;
 }
+.dropdown-list-container {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .header-list-container {
@@ -73,9 +76,11 @@ li i {
         background: none;
         border: none;
         font-size: 1.4rem;
+        margin-left: 95%;
     }
     .menu-container {
         display: flex;
+        flex-direction: column;
         font-size: 1.3rem;
         width: 60%;
         justify-content: flex-end;
@@ -84,20 +89,34 @@ li i {
     .button-container:hover {
         cursor: pointer;
     }
-    .dropdown-mobile {
+    .show-dropdown {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        margin-left: 78%;
+        margin-left: 70%;
         margin-top: 5%;
     }
-    .header-list-item {
+    .dropdown-list-item {
         display: flex;
         justify-content: flex-end;
         margin-top: 5%;
+        width: auto;
     }
-    .dropdown-menu {
-        height: 1.4rem;
-        margin-right: 5%;
-    }
+    .dropdown-list-item {
+        background-image:
+        linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        rgb(55, 158, 110) 90%,
+        rgb(55, 158, 110) 100%
+        );
+        background-repeat:no-repeat;
+        background-size: 0% 100%;
+        background-position-x: right;
+        transition: background-size 300ms;
+    }    
+    .dropdown-list-item:hover {
+    
+        background-size: 100% 100%;
+        background-position-x: left;
+    }    
 }

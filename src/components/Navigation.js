@@ -4,12 +4,8 @@ import "../styles/header.css"
 function Navigation() {
 
     function activateMenu() {
-        const headerList = document.querySelector(".header-list-container");
-        headerList.classList.add("dropdown-mobile");
-        const button = document.querySelector(".button-container");
-        const container = document.querySelector(".menu-container");
-        button.classList.add("dropdown-menu");
-        container.classList.add("dropdown-menu");
+        const dropdownList = document.querySelector(".dropdown-list-container");
+        dropdownList.classList.add("show-dropdown");
     }
     return (
         <div className="header-container">
@@ -40,6 +36,25 @@ function Navigation() {
                 <button className="button-container" onClick={activateMenu}>
                     <i class="fa-solid fa-bars"></i> 
                 </button>
+                <ul className="dropdown-list-container">
+                    <li className="dropdown-list-item">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="/" className="dropdown-link">Home</a>
+                    </li>
+                    <li className="dropdown-list-item">
+                    <i class="fa-solid fa-user"></i>
+                        <a href="/about" className="dropdown-link">About</a>
+                    </li>
+                    <li className="dropdown-list-item">
+                    <i class="fa-solid fa-computer"></i>
+
+                        <a href="/projects" className="dropdown-link">Projects</a>
+                    </li>
+                    <li className="dropdown-list-item">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        <a href="Assets/Evan-Woods-Coding-Resume.pdf" download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
+                    </li>
+                </ul>
             </div>
         </div>
     )
