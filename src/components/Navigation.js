@@ -19,15 +19,15 @@ function Navigation() {
             <ul className="header-list-container">
                 <li className="header-list-item">
                     <i class="fa-solid fa-house"></i>
-                    <Link to="/">Home</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
                 </li>
                 <li className="header-list-item">
                     <i class="fa-solid fa-user"></i>
-                    <Link to="/about">About</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/about`}>About</Link>
                 </li>
                 <li className="header-list-item">
                     <i class="fa-solid fa-computer"></i>
-                    <Link to="/projects">Projects</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/projects`}>Projects</Link>
                 </li>
                 <li className="header-list-item">
                     <i class="fa-solid fa-file-arrow-down"></i>
@@ -41,16 +41,16 @@ function Navigation() {
                 <ul className="dropdown-list-container">
                     <li className="dropdown-list-item">
                         <i class="fa-solid fa-house"></i>
-                        <a href="/" className="dropdown-link">Home</a>
+                        <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
                     </li>
                     <li className="dropdown-list-item">
                     <i class="fa-solid fa-user"></i>
-                        <a href="/about" className="dropdown-link">About</a>
+                    <Link to={`${process.env.PUBLIC_URL}/about`}>About</Link>
                     </li>
                     <li className="dropdown-list-item">
                     <i class="fa-solid fa-computer"></i>
 
-                        <a href="/projects" className="dropdown-link">Projects</a>
+                    <Link to={`${process.env.PUBLIC_URL}/projects`}>Projects</Link>
                     </li>
                     <li className="dropdown-list-item">
                         <i class="fa-solid fa-file-arrow-down"></i>

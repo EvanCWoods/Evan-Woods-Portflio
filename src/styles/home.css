@@ -9,6 +9,10 @@
 }
 .headshot {
     justify-content: center;
+}
+.img {
+    aspect-ratio: 1/1;
+    max-width: 300px;
     border-radius: 50%;
 }
 .home-intro-container {
