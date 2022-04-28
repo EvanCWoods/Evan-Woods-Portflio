@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/header.css"
+import "../styles/header.css";
+import resumePath from "../Assets/Evan-Woods-Coding-Resume.pdf";
 
 function Navigation() {
 
@@ -7,6 +8,7 @@ function Navigation() {
         const dropdownList = document.querySelector(".dropdown-list-container");
         dropdownList.classList.add("show-dropdown");
     }
+
     return (
         <div className="header-container">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +31,7 @@ function Navigation() {
                 </li>
                 <li className="header-list-item">
                 <i class="fa-solid fa-file-arrow-down"></i>
-                    <a href="Assets/Evan-Woods-Coding-Resume.pdf" download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
+                    <a href={resumePath} download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
                 </li>
             </ul>
             <div className="menu-container">
@@ -52,7 +54,7 @@ function Navigation() {
                     </li>
                     <li className="dropdown-list-item">
                         <i class="fa-solid fa-file-arrow-down"></i>
-                        <a href="Assets/Evan-Woods-Coding-Resume.pdf" download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
+                        <a href={resumePath} download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
                     </li>
                 </ul>
             </div>
