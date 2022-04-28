@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 body {
-  background-image: url("../../public/Assets/background.png");
+  background-image: url("../Assets/background.png");
   background-attachment: fixed;
   z-index: -100;
   height: 100vh;

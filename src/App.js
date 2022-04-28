@@ -12,9 +12,9 @@ function App() {
     <Router>
         <Navigation />
         <Routes>
-            <Route exact path="/" element={ <Home /> }/>
-            <Route exact path="/about" element={ <About /> }/>
-            <Route exact path="/projects" element={ <Projects /> }/>
+            <Route exact path={`${process.env.PUBLIC_URL}/`} element={ <Home /> }/>
+            <Route exact path={`${process.env.PUBLIC_URL}/about`} element={ <About /> }/>
+            <Route exact path={`${process.env.PUBLIC_URL}/projects`} element={ <Projects /> }/>
         </Routes>
         <Footer />
     </Router>
