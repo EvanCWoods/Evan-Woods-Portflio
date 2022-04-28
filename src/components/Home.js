@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css"
+import headshot from "../Assets/headshot.jpg";
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
                 <h2 className="colorful text">Full Stack & <br></br> Machine Learning Engineer</h2>
             </div>
             <div className="headshot">
-                <img src="Assets/headshot.jpg" alt="headshot"></img>
+                <img src={headshot} alt="headshot"></img>
             </div></div>
 
             <div className="brief-intro-container">
