@@ -12,8 +12,8 @@ function Footer() {
             <p>Copyright &copy; 2022 EW</p> 
         </div> 
         <div className="footer-right"> 
-            <i class="fa-brands fa-github"></i> 
-            <i class="fa-brands fa-linkedin-in"></i> 
+            <a href="https://github.com/EvanCWoods"><i class="fa-brands fa-github"></i> </a> 
+            <a href="https://www.linkedin.com/in/evan-woods-5557741b9"><i class="fa-brands fa-linkedin-in"></i></a>
         </div> 
     </div> 
     ) 
