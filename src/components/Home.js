@@ -4,13 +4,16 @@ import "../styles/home.css"
 function Home() {
     return (
         <div className="home-container">
-            <div className="home-intro-container">
+            <div className="home-top"><div className="home-intro-container">
                 <h1 className="text">Hi There!</h1>
                 <h1 className="text">I'm <span className="colorful text">Evan Woods</span></h1>
                 <br></br>
                 <br></br>
-                <h2 className="colorful text">Full Stack & Machine Learning Engineer</h2>
+                <h2 className="colorful text">Full Stack & <br></br> Machine Learning Engineer</h2>
             </div>
+            <div className="headshot">
+                <img src="Assets/headshot.jpg" alt="headshot"></img>
+            </div></div>
 
             <div className="brief-intro-container">
                 <h1 className="brief-intro-title">Let Me <span className="colorful">Introduce</span> Myself</h1>

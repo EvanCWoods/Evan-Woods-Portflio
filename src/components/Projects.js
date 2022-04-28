@@ -10,6 +10,7 @@ function Projects() {
             <Project image="Assets/project-images/mushroom.jpeg" projectTitle="Mushroom Classifier" projectDescription="This is a machine learning project which uses TensoFlow to detirmine whether a mushroom is poisonous or eddible based on a set of features such as color, size, stock length etc." link="https://github.com/EvanCWoods/Mushroom-Classifier"/>
             <Project image="Assets/project-images/cocktails.png" projectTitle="Cocktail Translator" projectDescription="This app takes user input of a cocktail name, allows them to select the language to translate to, and provides information in both english and the selected language such as a description, ingredients and measurements." link="https://github.com/EvanCWoods/group-3-cocktails-in-any-language"/>
             <Project image="Assets/project-images/minesweeper.png" projectTitle="Mine Sweeper game" projectDescription="This is a recreation of the once popular game 'Mine Sweeper'. It is built using JavaScript and emulates the origin game mechanics." link="https://github.com/EvanCWoods/mineSweeper"/>
+            <Project image="Assets/project-images/genetic-algo.png" projectTitle="Genetic Algorithm" projectDescription="This project uses raw python to simulate natural selection at its basic level. Essentially using numbers as genetic code to be passed on from generation to generation until the 'creatures' become very good at guessing a number." link="https://github.com/EvanCWoods/genetic-algorithm"/>
         </div>
     )
 }

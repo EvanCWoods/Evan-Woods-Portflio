@@ -4,6 +4,16 @@
     margin-top: 20%;
     z-index: 10;
 }
+.home-top {
+    display: flex;
+}
+.headshot {
+    justify-content: center;
+    border-radius: 50%;
+}
+.home-intro-container {
+    width: 50%;
+}
 .text {
     font-weight: 100;
     font-size: 2.4rem;
