@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Evan-Woods-Portfolio-webstite/static/css/main.b06a5775.css",
+    "main.js": "/Evan-Woods-Portfolio-webstite/static/js/main.05ef8128.js",
+    "static/media/background.png": "/Evan-Woods-Portfolio-webstite/static/media/background.3bdd94ba429014c4b946.png",
+    "index.html": "/Evan-Woods-Portfolio-webstite/index.html",
+    "main.b06a5775.css.map": "/Evan-Woods-Portfolio-webstite/static/css/main.b06a5775.css.map",
+    "main.05ef8128.js.map": "/Evan-Woods-Portfolio-webstite/static/js/main.05ef8128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b06a5775.css",
+    "static/js/main.05ef8128.js"
+  ]
+}
