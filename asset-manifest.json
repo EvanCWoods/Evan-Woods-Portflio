@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/Evan-Woods-Portfolio-webstite/static/css/main.b06a5775.css",
-    "main.js": "/Evan-Woods-Portfolio-webstite/static/js/main.05ef8128.js",
+    "main.css": "/Evan-Woods-Portfolio-webstite/static/css/main.4cc9aeba.css",
+    "main.js": "/Evan-Woods-Portfolio-webstite/static/js/main.be95e7f4.js",
+    "static/media/artJacent.png": "/Evan-Woods-Portfolio-webstite/static/media/artJacent.5ab6a0ebf90c2ea2c311.png",
     "static/media/background.png": "/Evan-Woods-Portfolio-webstite/static/media/background.3bdd94ba429014c4b946.png",
+    "static/media/cocktails.png": "/Evan-Woods-Portfolio-webstite/static/media/cocktails.3231d4075b7480f3a427.png",
+    "static/media/mushroom.jpeg": "/Evan-Woods-Portfolio-webstite/static/media/mushroom.5ae546b204ef00665047.jpeg",
+    "static/media/note-taker.png": "/Evan-Woods-Portfolio-webstite/static/media/note-taker.d40b3128b69d1c1aa7b9.png",
+    "static/media/minesweeper.png": "/Evan-Woods-Portfolio-webstite/static/media/minesweeper.b45b15161b2651f65cad.png",
+    "static/media/genetic-algo.png": "/Evan-Woods-Portfolio-webstite/static/media/genetic-algo.04a2995a5bc72452956b.png",
     "index.html": "/Evan-Woods-Portfolio-webstite/index.html",
-    "main.b06a5775.css.map": "/Evan-Woods-Portfolio-webstite/static/css/main.b06a5775.css.map",
-    "main.05ef8128.js.map": "/Evan-Woods-Portfolio-webstite/static/js/main.05ef8128.js.map"
+    "main.4cc9aeba.css.map": "/Evan-Woods-Portfolio-webstite/static/css/main.4cc9aeba.css.map",
+    "main.be95e7f4.js.map": "/Evan-Woods-Portfolio-webstite/static/js/main.be95e7f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b06a5775.css",
-    "static/js/main.05ef8128.js"
+    "static/css/main.4cc9aeba.css",
+    "static/js/main.be95e7f4.js"
   ]
 }
