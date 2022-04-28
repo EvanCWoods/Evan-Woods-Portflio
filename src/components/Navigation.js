@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import resumePath from "../Assets/Evan-Woods-Coding-Resume.pdf";
+import { Link } from "react-router-dom";
 
 function Navigation() {
 
@@ -18,19 +19,18 @@ function Navigation() {
             <ul className="header-list-container">
                 <li className="header-list-item">
                     <i class="fa-solid fa-house"></i>
-                    <a href="/" className="header-link">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li className="header-list-item">
-                <i class="fa-solid fa-user"></i>
-                    <a href="/about" className="header-link">About</a>
+                    <i class="fa-solid fa-user"></i>
+                    <Link to="/about">About</Link>
                 </li>
                 <li className="header-list-item">
-                <i class="fa-solid fa-computer"></i>
-
-                    <a href="/projects" className="header-link">Projects</a>
+                    <i class="fa-solid fa-computer"></i>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li className="header-list-item">
-                <i class="fa-solid fa-file-arrow-down"></i>
+                    <i class="fa-solid fa-file-arrow-down"></i>
                     <a href={resumePath} download="Evan-Woods-Coding-Resume.pdf" className="header-link">Resume</a>
                 </li>
             </ul>
