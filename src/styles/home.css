@@ -40,3 +40,15 @@
     line-height: 1.5rem;
     margin-right: 10%;
 }
+
+@media (max-width: 768px) {
+    .home-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-intro-container {
+        width: 80%;
+        margin: 10%;
+    }
+}
