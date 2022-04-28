@@ -51,4 +51,8 @@
         width: 80%;
         margin: 10%;
     }
+    .headshot {
+        display: flex;
+        justify-content: center;
+    }
 }
