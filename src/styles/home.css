@@ -10,7 +10,7 @@
 .headshot {
     justify-content: center;
 }
-.img {
+.headshot img {
     aspect-ratio: 1/1;
     max-width: 300px;
     border-radius: 50%;
