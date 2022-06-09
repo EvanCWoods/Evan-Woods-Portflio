@@ -5,7 +5,6 @@ import "../styles/projects.css";
 import artJacent from "../Assets/project-images/artJacent.png";
 import noteTaker from "../Assets/project-images/note-taker.png";
 import mushroom from "../Assets/project-images/mushroom.jpeg";
-import cocktails from "../Assets/project-images/cocktails.png";
 import minesweeper from "../Assets/project-images/minesweeper.png";
 import genetic from "../Assets/project-images/genetic-algo.png";
 import cognizance from "../Assets/project-images/cognizance.png";
