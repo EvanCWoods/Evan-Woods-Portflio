@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Evan-Woods-Portfolio-webstite/static/css/main.4c18543b.css",
+    "main.css": "/Evan-Woods-Portfolio-webstite/static/css/main.d7a15d52.css",
     "main.js": "/Evan-Woods-Portfolio-webstite/static/js/main.e4ad0eca.js",
     "static/media/artJacent.png": "/Evan-Woods-Portfolio-webstite/static/media/artJacent.5ab6a0ebf90c2ea2c311.png",
     "static/media/headshot.jpg": "/Evan-Woods-Portfolio-webstite/static/media/headshot.195ffd3fcc1e525c804c.jpg",
@@ -11,11 +11,11 @@
     "static/media/Evan-Woods-Coding-Resume.pdf": "/Evan-Woods-Portfolio-webstite/static/media/Evan-Woods-Coding-Resume.1da51e2b28815bb516d2.pdf",
     "static/media/genetic-algo.png": "/Evan-Woods-Portfolio-webstite/static/media/genetic-algo.04a2995a5bc72452956b.png",
     "index.html": "/Evan-Woods-Portfolio-webstite/index.html",
-    "main.4c18543b.css.map": "/Evan-Woods-Portfolio-webstite/static/css/main.4c18543b.css.map",
+    "main.d7a15d52.css.map": "/Evan-Woods-Portfolio-webstite/static/css/main.d7a15d52.css.map",
     "main.e4ad0eca.js.map": "/Evan-Woods-Portfolio-webstite/static/js/main.e4ad0eca.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c18543b.css",
+    "static/css/main.d7a15d52.css",
     "static/js/main.e4ad0eca.js"
   ]
 }
