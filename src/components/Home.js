@@ -23,7 +23,7 @@ function Home() {
                     <br></br>
                     <p className="intro-para">I am passionate about learning new things and am driven by a need to understand new things.</p>
                     <br></br>
-                    <p className="intro-para">I am fluent in <span className="colorful">JavaScript,</span> <span className="colorful"> Python</span> <span className="colorful">and C#</span></p>
+                    <p className="intro-para">I am fluent in <span className="colorful">JavaScript,</span> <span className="colorful">TypeScript,</span> <span className="colorful"> Python</span> <span className="colorful">and C#</span></p>
                     <br></br>
                     <p className="intro-para">I am always trying to improve my skills, create better products and integrate exciting, new technologies into my day to day knowledge base.</p>
                 </div>
